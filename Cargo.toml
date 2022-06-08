@@ -8,8 +8,8 @@ edition = "2018"
 members = ["core", "ml"]
 
 [dependencies]
-rustling-core = { path = "core" }
-rustling-ml = { path = "ml" }
+rustling-core = { path = "core", version = "0.9.1", registry = "kenbun" }
+rustling-ml = { path = "ml", version = "0.9.1", registry = "kenbun" }
 failure = "0.1"
 fnv = "1.0"
 serde = { version = "1.0", features = ["derive"] }
